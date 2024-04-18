@@ -27,3 +27,14 @@ print(multiplyInner_Product([1 ,  2 ] ,[4 , 2 ]))
 
         
 
+
+
+
+
+
+
+
+
+
+
+
