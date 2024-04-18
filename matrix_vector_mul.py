@@ -14,3 +14,5 @@ def multiply(a:np.array , b:np.array )->np.array  :
         for j in range(len(b)):
             c[i] = c[i] + a[i][j] + b[j]
 
+## note that , len(a) means row of a , as may be multidimention  , 
+## and len(b) simple means no of columns because  , b is a vector  , 1-d so
