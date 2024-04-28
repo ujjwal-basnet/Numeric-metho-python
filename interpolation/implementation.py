@@ -84,24 +84,7 @@ class LagrangeInterpolation:
             # backward subtitutational 
         for k in range(n-1 , -1 , -1 ):
             self.b[k] = (self.b[k] - np.dot(self.m[k, k + 1:n], self.b[k + 1:n])) / self.m[k, k]
-
-
-
-                    
-
-
-         
-  
-
-
-        
-
-
-
-
-
-
-
+            
 if __name__ == '__main__':
     algorithm = LagrangeInterpolation([-2, -1, 0, 1, 2], [5.1, 1.9, 1.1, 2.1, 4.9], 2)
     algorithm.solve()
