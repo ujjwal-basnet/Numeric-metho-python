@@ -15,7 +15,7 @@ def trapezoidaIntegration(a , b  , N = 1000 ):
 
     #considering the internal points between a  and b 
     for i in range(1 , N):
-        x = a + i*N
+        x = a + i* width
         sum += 2 * f(x) 
 
     #evaluate the function at f(b)
